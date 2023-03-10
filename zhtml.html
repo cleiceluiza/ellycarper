@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+	<html lang=”pt-br”>	
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+		<title>Elly Carper</title>
+        <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">		
+		<link rel="stylesheet" href="./assets/css/style.css">		
+	</head>
+	
+	<body>
+		<header class="cabecalho">
+		<h1> Elly Carper e Banda Farra de Elite</h1>		
+		</header>
+
+		<aside>
+			<h2 id="indice">Índice</h2>
+				<ul>
+                    <li><a href="#Carreira">Carreiras</a></li>
+                    <li><a href="#Videos">Vídeos de Músicas Autorais</a></li>
+                    <li><a href="#Portfolio">Portifólio</a></li>
+                    <li><a href="#Curiosidades">Curiosidades</a></li>
+                    <li><a href="#Sugestoes">Sugestões</a></li>
+                    <li><a href="#RedesSociais">Redes Sociais</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+			
+            <h2 id="RedesSociais">Redes Sociais</h2>
+                <p> <a href="https://www.instagram.com/ellycarper/" title="Clique aqui e confira" target="_blank">Instagram</a></p>
+                <p> <a href="https://www.youtube.com/@ellycarper" title="Clique aqui e confira" target="_blank"> YouTubre</a></p>
+                <p> <a href="+5581997695840">Telefone</a></p>
+		</aside>
+						
+		<main class="principal">
+		<p id="bemvindos">Sejam bem vindos<p>
+
+			<figure>
+				<img src="logo_banda.png" alt="Logo da banda" width="300">
+				<figcaption></figcaption>
+			</figure>
+		
+            <section>
+				<h2> Navegue escutando uma boa música </h2>	
+           		<audio src="decretadoofim.mp3" controls></audio>	
+            </section>
+			
+			<section>
+				<h2 id="video_inclusivo">Vídeo Inclusivo</h2> 
+            	<video src="Clipe_Decretado o fim_Inclusivo.mov" width="300" controls autoplay loop></video>
+            </section>
+            
+            <section>
+				<h2 id="Carreira">Carreira</h2>
+				<small> <a href="#indice">(Voltar)</a></small>
+				<p> Elly Carper começou ao 14 anos de idade... Foi vocalistas das bandas...
+					Desde então ... 
+					Partiu para carreira solo em 2019. Lançou músicas como...
+				</p>
+			</section>
+
+			<section>
+				<h2 id="Videos">Vídeos de Músicas Autorais</h2>
+        		<small> <a href="#indice">(Voltar)</a></small>    
+					<ul>        
+						<li>
+							Colega					
+							<iframe width="250" height="150" src="https://www.youtube.com/embed/WfajnRIhC3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</li>
+						<li>
+							Mulher Fiel						
+							<iframe width="250" height="150" src="https://www.youtube.com/embed/ADFkJDK5ogk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</li>
+						<li>
+							Paguei o preço						
+							<iframe width="250" height="150" src="https://www.youtube.com/embed/bdMRxTKd2us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</li>
+						<li>
+							Decretado o Fim - 2022						
+							<iframe width="250" height="150" src="https://www.youtube.com/embed/k1Db6q_t6BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</li>
+					</ul>
+			</section>
+
+			<section>
+				<h2 id="Portfolio"> Portfólio</h2>
+				<small> <a href="#indice">(Voltar)</a></small>				
+			</section>
+			
+			<section>
+				<h2 id="Contato">Contato</h2>
+				<small> <a href="#indice">(Voltar)</a></small>
+				<p></p>
+			</section>
+
+				<form name="contact" onsubmit="alert('Mensagem enviada!');" autocomplete="on" target="_blank" method="POST" action="contato@ellycarper.com.br">
+					<fieldset>
+						<legend>
+							Fale conosco
+						</legend>
+						<fieldset>
+							<legend>
+								Informe seus dados
+							</legend>						
+								<label for="nome"> Nome:* </label>
+								<input type="text" minlength="3" id="nome" name="nome" required />							
+								<label for="idade"> Idade:* </label>
+								<input type="number" id="idade" name="age" min="18" max="99" step="1" required />							
+								<Label for="email"> E-mail:* </Label>
+								<input type="email" placeholder="exemplo@gmail.com" required/>							
+								<label for="tel"> WhatsApp:*  </label>
+								<input type="tel" maxlength="13" id="tel" name="tel" placeholder="81-99999-9999" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" style="width: 170px" type="text" width="50" required />
+						</fieldset>
+	
+						<p></p>
+					
+						<fieldset>
+							<legend> Escreva sua mensagem </legend>
+						<p></p>
+						<Label>Data do seu evento: </Label><input type="date" />
+						<p></p>	
+	
+						<label> Motivo da mensagem: *</label>
+							<select name="role">
+								 <option value=""> Selecione o tipo de mensagem</option>
+								<option value="Contratar"> Contratar</option>
+								<option value="Elogiar"> Elogiar</option>
+								<option value="Sugerir"> Sugerir</option>
+							<select></select><br>
+							<p></p>
+							<textarea id="msg" rows="10" cols="60" name="message" maxlength="500" minlength="10"></textarea><br>					
+							<label></label><input type="submit"></button>  
+						</fieldset>
+					</fieldset>
+				</form>
+		</main>	
+
+        <nav>
+			<h2> Outros </h2>	
+			<a href="https://www.instagram.com/bi_recife_consultoria/"> Link para Instagram</a>		
+			
+			<ul>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 2</a></li>
+				<li><a href="+5581997695840">Telefone</a></li>
+			</ul>
+		</nav>
+		
+		<footer class="rodape">   
+				<p>Developer: Cleice Luiza</p>	
+				<P>E-mail: cleiceluiza@outlook.com</P>
+				<p>WhatsApp: +55 81 9.9758-7437</p>			
+		</footer>			
+			
+	</body>	
+
+	</html>

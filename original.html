@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elly Carper</title>
+    <style>
+        .row {
+            margin: 5px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset {
+            margin: 15px 0;
+            border-radius: 10px;
+            border-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>        
+        <figure>           
+            <source media="(max-width: 750px)" srcset="imagens/logo_banda_p.png" type="image/png">
+            <source media="(max-width: 750px)" srcset="imagens/logo_banda_m.png" type="image/png">
+            <img src="imagens/logo_banda_g.png" alt="Logo da banda com imagem flexível" width="400">
+            <figcaption></figcaption>
+        </figure>        
+    </header>
+    
+    <h1 id="inicio">Elly Carper</h1>
+
+    
+        
+    <h2>Elly Carper e Banda Farra de Elite</h2>
+        <p>A mais <strong><u>eclética</u></strong> para o seu evento<sup>*</sup></p>
+    
+    <img src="logo_banda.png" />
+    <img src="logoelly.png" />
+
+
+    <h2> Navegue escutando uma boa música </h2>	
+	    <audio autoplay controls>
+            <source src="decretadoofim.mp3" />
+            Seu navegador não oferece suporte para este áudio!
+        </audio> 
+
+    <h2>Clipe inclusivo</h2>
+        <video controls autoplay width="400" height="250"> 
+            <source src="Clipe_Decretado o fim_Inclusivo.mov"/>
+            Seu navegador não suporta esse vídeo!
+        </video>    
+
+    <h2>Índice</h2>
+        <ul>
+            <li><a href="#Carreira">Carreiras</a></li>
+            <li><a href="#Clipes">Clipes</a></li>
+            <li><a href="#Portfolio">Portifólio</a></li>
+            <li><a href="#Curiosidades">Curiosidades</a></li>
+            <li><a href="#Sugestoes">Sugestões</a></li>
+            <li><a href="#RedesSociais">Redes Sociais</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+
+    <h2 id="Carreira">Carreira</h2>
+        <small> <a href="#inicio">(Voltar)</a></small>
+        <p> Elly Carper começou ao 14 anos de idade... Foi vocalistas das bandas...
+            Desde então ... 
+            Partiu para carreira solo em 2019. Lançou músicas como...</p>
+
+    <h2 id="Clipes">Clipes</h2>
+        <small> <a href="#inicio">(Voltar)</a></small>    
+        <ul>        
+            <li>Colega</li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WfajnRIhC3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <li>Mulher Fiel</li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ADFkJDK5ogk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <li>Paguei o preço</li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bdMRxTKd2us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <li>Decretado o Fim - 2022</li><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/k1Db6q_t6BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </ul>
+
+    <h2 id="Portfolio"> Portfólio</h2>
+        <small> <a href="#inicio">(Voltar)</a></small>
+        <ul>
+            <li>
+                Clique em portifólio <a href="portfolio.html" title="clique aqui"></a>
+            </li>
+        </ul>
+
+    <h2 id="Curiosidades">Curiosidades</h2>
+        <small> <a href="#inicio">(Voltar)</a></small>
+
+    <h2 id="Sugestoes">Sugestões</h2>
+        <small> <a href="#inicio">(Voltar)</a></small>
+
+    <h2 id="RedesSociais">Redes Sociais</h2>
+    <small> <a href="#inicio">(Voltar)</a></small>
+    <p> <a href="https://www.instagram.com/ellycarper/" title="Clique aqui e confira" target="_blank">Instagram</a></p>
+    <p> <a href="https://www.youtube.com/@ellycarper" title="Clique aqui e confira" target="_blank"> YouTubre</a></p>
+    <p>WhatsApp</p>
+    
+    <h2 id="Contato">Contato</h2>
+        <small> <a href="#inicio">(Voltar)</a></small>
+
+    
+    <form name="contact" onsubmit="alert('Mensagem enviada!');" autocomplete="on" target="_blank" method="POST" action="contato@ellycarper.com.br">
+                Contate-nos
+        <fieldset>
+            <legend> Dados para contato</legend>
+                <div class="row">
+                    <label>Nome:* </label><input type="text" /> Idade:* <input type="number" min="18" max="99" step="1" name="age"/><br>
+                    <Label>E-mail:* </Label><input type="email" /> <br>                
+                    <label>WhatsApp:*</label><input style="width: 170px" type="text" width="50"/>                            
+        </fieldset> 
+         
+            <Label>Data do seu evento: </Label><input type="date" /><br>
+            <label> Motivo do contato: *</label>
+                <select name="role">
+                    <option value=""> Selecione o tipo de mensagem</option>
+                    <option value="Contratar"> Contratar</option>
+                    <option value="Elogiar"> Elogiar</option>
+                    <option value="Sugerir"> Sugerir</option>
+                <select></select><br>
+                    
+                <textarea rows="7" cols="50" name="message"></textarea><br>
+                <label></label><input type="submit"></button>                
+    </form>       
+    
+    <footer class="rodape">   
+        <p>Developer: Cleice Luiza (81) 9 97587437</p>	
+        <P>Endereço: Rua Amazonita, Nº 999999 - Conceição/Paulista</P>
+        <p>CNPJ: 99.999.000/9999-99</p>
+    </footer>	
+
+</body>
+</html>
