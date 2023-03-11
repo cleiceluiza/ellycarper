@@ -14,7 +14,7 @@
         <picture>           
             <source media="(max-width: 750px)" srcset="imagens/logos/logo_banda_p.png" type="image/png" id="logo-banda">
             <source media="(max-width: 1050px)" srcset="imagens/logos/logo_banda_m.png" type="image/png" id="logo-banda">
-            <img src="imagens/logos/logo_banda_g.png" alt="Logo da banda com imagem flexível" width="250" id="logo-banda">            
+            <img src="imagens/logos/logo_banda_g.png" alt="Logo da banda com imagem flexível" width="300" id="logo-banda">            
         </picture> 
     </header>
 
@@ -32,11 +32,12 @@
     <main>
         <article>
             <h1> SEJAM BEM VINDOS </h1>
-            <img src="imagens/elly/elly_full.jpg" alt="Logo Elly Carper" width="130" id="logo-sejambemvindos"><br>
-            <p></p>
+            <section class="normal">
+                <img src="imagens/elly/elly_full.jpg" alt="Logo Elly Carper" width="130" id="logo-sejambemvindos">
+            </section>
 
-            <section>
-                <h2> Navegue escutando uma boa música </h2><br>
+            <h2> Navegue escutando uma boa música </h2>
+            <section class="normal">
                 <audio src="audio/decretadoofim.mp3" controls></audio><br>
                 <a href="audio/decretadoofim.mp3" download="Decretado o Fim.mp3" type="application/mp3" id="linkdownload">Clique aqui para baixar a música "Decretado o Fim"</a><br>
                 <P></P>  
@@ -44,6 +45,7 @@
 
             <aside>                
                 <h2 id="RedesSociais">Redes Sociais</h2>
+                <section class="normal">
                     <ul id="ul" >
                         <li id="instagram"class="redessociais"> <a href="https://www.instagram.com/ellycarper/" target="_blank" rel="external"> <abbr title="Instagram Elly Carper"> <img src="imagens/instagram/Social-Media-Icons-Glossy-Social-Instagram.512.png" alt="logo Instagram" width="50" ></a></li></abbr>
                         <li id="youtube"class="redessociais"> <a href="https://www.youtube.com/@ellycarper" target="_blank" rel="external"> <abbr title="Youtube Elly Carper"> <img src="imagens/youtube/Social-Media-Icons-Glossy-Social-Youtube.512.png" alt="logo YouTube" width="50"></a></li></abbr> 
@@ -52,44 +54,43 @@
                         
                         <div id="instagramfaclube"> &#X1F4AB &#X2728 Instagram Fã Clube &#X2728 &#X1F4AB <P></P>
                             <a href="https://www.instagram.com/fa_clube_elly_carper/" target="_blank" rel="external"> <abbr title="Clique aqui e confira!"> <img src="imagens/instagram/Martz90-Circle-Instagram.512.png" alt="logo Instagram fã clube" id="imagemfaclube"></a></abbr>
-                        </div>                      
+                        </div>
+                </section>
+                                          
                     
-                <section>
-                    <h2 id="video_inclusivo">Vídeo Inclusivo</h2>           
+                <h2 id="video_inclusivo">Vídeo Inclusivo</h2> 
+                <section class="normal">
+                    <div>
+                        <video id="video" controls autoplay loop width="500" class="video">
+                            <source src="audio/decretadoofim-inclusivo-mp4.mp4" width="300" type="video/mp4">
+                            <source src="audio/decretadoofim-inclusivo-webm.webm" width="300" type="video/webm">
+                            <source src="audio/decretadoofim-inclusivo-ogv.ogv" width="300" type="video/ogg">
+                            <p>Seu navegador não é compatível com reprodução de vídeos</p>        
+                        </video>
+                    </div>
+                </section> 
+                
+                <h2 id="Carreira">Carreira</h2>
+                <small> <a href="#Home" class="home">( Voltar )</a></small><br>  
+                <section class="imagem" id="img01" > 
+                    <article>
+                        <p style="text-align: justify"> Elly Carper começou aos 14 anos de idade... Foi vocalistas das bandas... Desde então ... Partiu para carreira solo em 2019. Lançou músicas como... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae temporibus vero nihil minus! Repellat quisquam iure omnis doloremque id nemo maxime magnam dolorem quam, consectetur ratione nisi provident ad eveniet!
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem expedita recusandae magnam hic ad eaque sequi rem veritatis suscipit pariatur, aperiam ipsa deleniti quisquam laborum eligendi fuga ex illo beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque provident, assumenda nulla deserunt fugiat minus perspiciatis modi facere sit et cum maxime consectetur, ad hic. Perferendis assumenda quidem deserunt commodi?</p>
+                    </article>
                 </section>
 
-                <div>
-                    <video id="video" controls autoplay loop width="500" class="video">
-                        <source src="audio/decretadoofim-inclusivo-mp4.mp4" width="300" type="video/mp4">
-                        <source src="audio/decretadoofim-inclusivo-webm.webm" width="300" type="video/webm">
-                        <source src="audio/decretadoofim-inclusivo-ogv.ogv" width="300" type="video/ogg">
-                        <p>Seu navegador não é compatível com reprodução de vídeos</p>        
-                    </video>
-                </div>                
-
-                <section>
-                    <h2 id="Carreira">Carreira</h2>
-                    <small> <a href="#Home" class="home">( Voltar )</a></small><br>                    
-                    <p style="text-align: justify"> Elly Carper começou aos 14 anos de idade... Foi vocalistas das bandas...
-                        Desde então ... 
-                        Partiu para carreira solo em 2019. Lançou músicas como... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda pariatur blanditiis, quia temporibus reiciendis nisi repellat doloribus a sed nihil nemo praesentium optio. Dolor expedita officiis, laborum aut tenetur veritatis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae temporibus vero nihil minus! Repellat quisquam iure omnis doloremque id nemo maxime magnam dolorem quam, consectetur ratione nisi provident ad eveniet!
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci veritatis suscipit id, soluta dicta ea quasi iure, libero a architecto fuga debitis ex hic eos autem itaque dolor nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure inventore soluta, nemo voluptatibus officia nostrum debitis dolore ab quibusdam distinctio nesciunt similique quisquam facilis, optio numquam veritatis voluptate maxime? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ad saepe, placeat, adipisci sint quasi aliquid voluptatum earum libero hic tempora ullam non eveniet odio consectetur mollitia? Nobis, eum repudiandae? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione mollitia doloribus delectus iste! Dicta voluptas magnam nobis cum a vel porro impedit maxime iure rem. Repellat inventore culpa obcaecati officia.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sit inventore nesciunt deleniti omnis cum et. Omnis obcaecati officiis architecto neque expedita in molestias cumque necessitatibus, sit natus a iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus odio aut quis? Illum asperiores eveniet deserunt, debitis inventore a natus vel commodi laudantium totam quas et recusandae saepe provident. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem rem distinctio commodi dicta eum et hic nulla perferendis provident! Dolores quod quasi delectus, repellat qui tempora possimus quos minus ratione?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae eius autem quae quaerat velit excepturi a consequuntur dignissimos vero quod hic, laboriosam dicta fuga perspiciatis nam at magni quibusdam distinctio!</p>
-                    </p>
-                </section>
-
-                <section>
-                    <h2 id="Clipes">Clipes</h2>
-                    <small><a href="#Home" class="voltar">( Voltar )</a></small><br>
+                <h2 id="Clipes">Clipes</h2>
+                <small><a href="#Home" class="voltar">( Voltar )</a></small><br>
+                <section class="normal">
                     <ul>
                         <li class="videos"><iframe id="video" width="250" height="150" src="https://www.youtube.com/embed/WfajnRIhC3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
                         <li class="videos"><iframe id="video" width="250" height="150" src="https://www.youtube.com/embed/ADFkJDK5ogk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
                     </ul>                    
                 </section>
-
-                <section>
-                    <h2 id="Autorais">Autorais</h2>
-                    <small><a href="#Home" class="voltar">( Voltar )</a></small><br>    
+                
+                <h2 id="Autorais">Autorais</h2>
+                <small><a href="#Home" class="voltar">( Voltar )</a></small><br>
+                <section class="normal">
                     <ul id="ul">
                         <li class="videos"></li>
                         <iframe id="video" width="250" height="150" src="https://www.youtube.com/embed/-KN7zSZN2PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -101,22 +102,30 @@
                         <iframe id="video" width="250" height="150" src="https://www.youtube.com/embed/k1Db6q_t6BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
                     </ul>
                 </section>
-                    
-                <section>
-                    <h2 id="Portfolio"> Portfólio</h2>
-                    <small><a href="#Home" class="voltar">( Voltar )</a></small><br>				
+                
+                <h2 id="Portfolio"> Portfólio</h2>
+                <small><a href="#Home" class="voltar">( Voltar )</a></small><br>
+                <section class="normal">
+                    <p></p>                    				
                 </section>
 
-                <section>
-                    <h2 id="Discografia"> Discografia</h2>
-                    <small><a href="#Home" class="voltar">( Voltar )</a></small><br>				
+                <h2 id="Discografia"> Discografia</h2>
+                <small><a href="#Home" class="voltar">( Voltar )</a></small><br>
+                <section class="normal" id="img02">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur adipisci vitae optio consectetur perspiciatis quibusdam dolores iusto beatae asperiores ad quisquam numquam commodi illum ipsa odit odio nobis, nostrum cumque?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam facilis aliquam dignissimos enim quibusdam tenetur id in. Aperiam consequuntur accusamus, cumque modi dolorum voluptates laboriosam ad corporis a fuga?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam asperiores quae, est quisquam consectetur soluta nesciunt perferendis eaque quidem voluptatem facere totam. Ab cum consequuntur quaerat deleniti laudantium voluptate minima.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero in pariatur nisi, nihil libero necessitatibus ad maxime cupiditate quod dolores asperiores maiores minus id. Ipsa dolorum error quod autem vero.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod consequatur omnis, repellendus repudiandae temporibus ducimus sint animi voluptatibus iste numquam, reprehenderit quos, laboriosam laudantium a ab itaque deleniti quis asperiores!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatibus asperiores, quia illo et ea. Optio laboriosam ad delectus, iure ea vitae et aut, nobis aspernatur ducimus fugit voluptatibus! Nostrum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium neque consequatur omnis hic sint facilis necessitatibus iusto natus alias fuga nostrum sed dicta sequi accusamus totam optio cupiditate, officiis mollitia?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dignissimos dolores exercitationem nesciunt facere, necessitatibus excepturi est voluptates odit dolor praesentium esse! Nemo hic facilis commodi magni repudiandae mollitia voluptatibus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga a dolorum, molestias placeat similique distinctio aliquam quibusdam quis ipsa, accusamus saepe quidem nulla consequatur doloremque hic suscipit corporis quas. Tempore.
+                    </p>                    				
                 </section>
 
-                <section>
-                    <h2 id="Contato">Fale Conosco</h2>
-                    <small><a href="#Home" class="voltar">( Voltar )</a></small><br>            
-                </section>
-
+                <h2 id="Contato">Fale Conosco</h2>
+                <small><a href="#Home" class="voltar">( Voltar )</a></small><br>               
                 <form name="contact" onsubmit="alert('Mensagem enviada!');" autocomplete="on" target="_blank" method="POST" action="contato@ellycarper.com.br">
                     <fieldset>
                         <legend id="faleconosco">
