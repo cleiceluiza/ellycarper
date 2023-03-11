@@ -52,7 +52,7 @@ header{
     min-height: 200px;
     text-align: center;    
     background-repeat: repeat;
-    background-image: linear-gradient(45deg,#410859,pink, #F2D129, #82288E,yellow, #82288E, #F2D129, pink,#410859);
+    background-image: linear-gradient(45deg,yellow,#F2D129,pink,#410859,#82288E, yellow,#F2D129,pink,#410859,#82288E, yellow,#F2D129,pink,#410859,#82288E,yellow,#F2D129,pink,#410859,#82288E );
     border-radius: 1px;
     background-attachment: fixed;
     padding-top: 2px;
