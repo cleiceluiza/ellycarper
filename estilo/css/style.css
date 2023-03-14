@@ -40,301 +40,106 @@
 *{
     margin:0px;
     padding: 0px;
-}
-
-body{    
-    text-align: center;    
-    background-repeat: repeat;
-    margin: 1px;     
+    box-sizing: border-box;
 }
 
 header{
-    min-height: 200px;
-    text-align: center;    
-    background-image: linear-gradient(45deg,yellow,#F2D129,pink,#410859,#82288E, yellow,#F2D129,pink,#410859,#82288E, yellow,#F2D129,pink,#410859,#82288E,yellow,#F2D129,pink,#410859,#82288E );
-    border-radius: 10px;
-    background-attachment: fixed;
-    padding-top: 2px;
-    padding-bottom: 2px;    
-}
-
-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding: 9px 0px;
     font-family: var(--fonte-secundaria), 'Courier New', Courier, monospace;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 7px 2px 7px 2px rgba(128, 0, 128, 0.649);    
-    border-radius:  10px;    
-    margin-bottom: 50px;    
+    background-color:transparent;
+    background-repeat: repeat;  
+    border-radius:0px 0px 5px 5px; 
 }
 
-nav a{ /* configuração genérica do link */
+header li{
+    display: inline-block;    
+}
+
+.redessociais{
+    width: 60px;
+    padding: 5px;
+}
+
+.redessociais a:hover{
+    text-decoration: none;
     color:black;
+    text-shadow: none;
+    background-color: transparent;
+    
+}
+
+main{
+    padding: 1px;
+    background-image: url('imagens/elly/fundo800.jpg');
+    box-shadow: 0px 0px 10px var(--lilas1);
+    border-radius: 0px 0px 0px 0px;
+}
+
+div{
+    width: 100px;
+    height: 710px;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a{/* links */
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .5s;
+    color:yellow;
 }
 
-nav a:visited{ /* visitado */
-    color:black;
-}
-
-nav a:hover{ /* ao passar o mouse em cima */
-    color:var(--ama1);
+ul a{ /* configuração genérica do link */
     text-decoration: none;
-    background-color:var(--lilas4);
+    color:yellow;
+    font-weight: normal;
+    transition-duration: 0.5s;
+}
+
+ul a:visited{ /* visitado */
+    color: black;
+    text-shadow: 2px 2px 2px yellow;
+}
+
+ul a:hover.menu{ /* ao passar o mouse em cima */
+    text-decoration: none;
+    color: #7E258A;
+    text-shadow: 3px 3px 3px black;
+    background-color: yellow;
+    border-radius: 10px;
 }
 
 nav a:active{ /* ao clicar */
     color: lightgreen;
 }
 
-/* avisa que tem um link
-a::after{  
-    content: '[link]';
-    text-decoration: none;
-    font-weight: normal;
-    color:darkgray;
-}
-*/
-
-main{
-    min-width: 320px;
-    max-width: 1450px;
-    margin:auto;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 0px 10px var(--lilas1);
-    border-radius: 5px;
-}
-
-main h1{ /* box-level */
-	font-family:var(--fonte-destaque), cursive;
-    font-weight: normal;	
-    font-style: normal;
-    font-size: 5vw;   
-	color: purple;
-	text-shadow: 2px 2px 2px yellow;
-    margin: 10px;
-    padding: 10px 10px 10px 10px;
-}
-
-main h2{
+.menu{
     font: normal normal 3em var(--fonte-secundaria), sans-serif;
     font-size: 4vw;
     text-align: center;
-    color: purple;
+    color:black;
     text-shadow: 2px 2px 2px yellow;
     font-variant: small-caps;
-}
-
-h2:hover{
-    background-color: #82288E;
-    color: black;
-    border-radius: 5px;
-    background-image: linear-gradient(45deg,#410859,pink, #F2D129, #82288E,pink, pink, #82288E, #F2D129, pink,#410859);
-    margin: 1px;
-    padding: 1px;
-}
-
-main img{
-    width: 100%;      
-}
-
-main p{
-    font-family: var(--fonte-terciaria), Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    line-height: 1.5em;
-    font-size: 2vw;
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 50px;
-    padding: 1px;     
-}
-
-main a{/* links */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main a:hover{ /* ao passar o mouse em cima */
-    text-decoration: underline;
-}
-
-#logo-sejambemvindos{
-    width: 150px;
-    margin: 1px;
-    padding: 1px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px purple;
-}
-
-#ul{
-    list-style: none;
-    margin: 0;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px 0;
-    text-align: center;
-}
-
-#faleconosco{
-    font-size: 2em;
-    font-weight: bold;
-    font-style: oblique;
-    color: purple;
-}
-
-#fixed{
-    background-attachment: fixed;
-}
-
-#video{
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px purple;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-#logo-banda{ /* inline-level */
-    margin: 1px;
-    padding: 1px;
-}
-
-
-.menu{   
-    font-family: var(--fonte-onomber);
-    font-size: 16px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;   
-}
-
-.redessociais{
-    display: inline-block;
-    width: 80px;
-    margin: 1px;
-    padding: 1px;  
-}
-
-#imagemfaclube{
-    width: 70px;
-    margin-bottom: 50px;        
-}
-
-.clipes{
-    font-weight: bold;
-    font-size: 12px;
-    margin: 10px;
-    padding: 10px;
-    color: purple;
-    display: inline-block;
-}
-
-.videos{
-    font-weight: bold;
-    font-size: 12px;
-    margin: 10px;
-    padding: 10px;
-    color: purple;
-    display: inline-block;
-}
-
-.voltar{
     font-weight: normal;
-    font-size: 10px;    
-    color: blue;
-    text-decoration: none;
-}
-
-.row {
-    margin: 5px;
-}
-
-/*
-#container{
-    background-image: url('imagens/logos/logoelly_full.png');
-    background-size: 100% 100%;
-    position: relative;
-    height: 96vh;
-    padding: 10px;
-    background-color: yellow;
-}
-
-#conteudo{
-    background-image: url('imagens/logoelly_full.png');
-    background-size: 100% 100%;
-    position: absolute;
-    height: 200px;
-    padding: 400px;
-    background-color: purple;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-*/
-
-section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 10px;
-}
-
-section.normal{
-    background-color:white;
-    color: black;
-}
-
-section.imagem{
-    background-color: white;
-    color: black;    
-    box-shadow: inset 6px 6px 13px 0px purple;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-section.imagem > p {
-   display: inline-block;
-   padding: 5px;
-   background-color: #95949B;
-   color: black;
-   text-shadow: purple;
-}
-
-section#img01{
-    background-image: url('../css/imagens/logos/logo_banda_full.png');
-    background-position: center center;
-}
-
-section#img02{
-    background-image: url('../css/imagens/elly/elly_full.jpg');
-    background-attachment: fixed;
-}
-
-label{
-    font-weight: bold;
-    width: 100px;
-    text-align: right;
-    padding-right: 5px;
-    color: purple;   
-}
-
-fieldset {
-    font-weight: bold;
-    margin: 15px 0;
-    border-radius: 10px;
-    border-color: purple;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
+    line-height: 1.5em;
 }
 
 footer{
     text-align: center; 
     background:black;
-    color:yellow;
-	font-size: 12px;
-    margin: 0px;
+    color:purple;
+	font-size: 10px;
     padding: 10px;
-    border-radius: 5px;
-    background-attachment: fixed;
 }
