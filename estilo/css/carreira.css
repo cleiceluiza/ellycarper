@@ -70,91 +70,37 @@ header li{
     background-color: transparent;   
 }
 
-body{
+body{    
+    font-family: var(--fonte-secundaria);
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    background-position: center center;  
+    padding-top: 30px;
+    margin-top: 30px;
     background-image: url('imagens/elly/fundo800.jpg');
 }
 
-main{
-    display: flex;
-    align-items: center;
+h1{
+    font: normal normal 1em var(--fonte-secundaria), sans-serif;
+    text-shadow: 2px 2px 2px yellow;
+    font-variant: small-caps;
+    font-size: 4vw;
+    text-align: center;
+    color:black;  
 }
 
 p{
     font-family: var(--fonte-terciaria);
     text-align: justify;
     padding: 10px;
-    text-indent: 50px;    
+    text-indent: 50px; 
+    
 }
 
-ul{
-    list-style: none;
-}
-
-ul a{/* links */
-    text-decoration: none;    
-}
-
-ul a:hover.menu{ /* ao passar o mouse em cima */
-    text-decoration: none;
-    color: #7E258A;
-    text-shadow: 3px 3px 3px black;
-    background-color: yellow;
-    border-radius: 10px;
-    transition-duration: 0.5s;
-}
-
-ul a:hover.menu{
-    transform: scale(2);
-}
-
-.menu{
-    font: normal normal 3em var(--fonte-secundaria), sans-serif;
-    font-size: 4vw;
-    text-align: center;
-    color:black;
-    text-shadow: 2px 2px 2px yellow;
-    font-variant: small-caps;
+#voltar{
     font-weight: normal;
-    line-height: 1.5em;
-}
-
-div{
-    color: #F2D129;
-    width: 500px;
-    height: 500px;
-    display: inline;
-    margin-top: 50px;
-    margin-left: 10px;
-    padding-left: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-#div01{
-    width: 280px;
-    height: 600px;
-    justify-content: center;
-}
-
-#div02{ 
-    width: 300px;
-    height: 600px;  
-}
-
-#div03{
-    width: 900px;
-    height: 600px;
-    color: white;   
-}
-
-
-
-
-
-.transitionsize a:hover.menu{
-    transform: scale(2);
-}
-
-.transitionrotate a:hover.menu{
-    transform: rotatez(360deg);
+    font-size: 15px;    
+    color:cyan;
+    text-decoration: none;
 }

@@ -50,7 +50,6 @@ header{
     width: 100%;
     text-align: right;
     padding: 9px 0px;
-    font-family: var(--fonte-secundaria), 'Courier New', Courier, monospace;
     background-color:transparent;
 }
 
@@ -70,28 +69,29 @@ header li{
     background-color: transparent;   
 }
 
-body{
+body{ 
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    background-position: center center;  
+    padding-top: 30px;
+    margin-top: 30px;
     background-image: url('imagens/elly/fundo800.jpg');
 }
 
-main{
-    display: flex;
-    align-items: center;
+h1{
+    font: normal normal 1em var(--fonte-secundaria), sans-serif;
+    text-shadow: 2px 2px 2px yellow;
+    font-variant: small-caps;
+    font-size: 4vw;
+    text-align: center;
+    color:black;  
 }
 
-p{
-    font-family: var(--fonte-terciaria);
-    text-align: justify;
-    padding: 10px;
-    text-indent: 50px;    
-}
-
-ul{
-    list-style: none;
-}
-
-ul a{/* links */
-    text-decoration: none;    
+div{
+    width: 100px;
+    height: 710px;
+    display: inline-block;
 }
 
 ul a:hover.menu{ /* ao passar o mouse em cima */
@@ -100,61 +100,60 @@ ul a:hover.menu{ /* ao passar o mouse em cima */
     text-shadow: 3px 3px 3px black;
     background-color: yellow;
     border-radius: 10px;
-    transition-duration: 0.5s;
 }
 
-ul a:hover.menu{
-    transform: scale(2);
-}
-
-.menu{
-    font: normal normal 3em var(--fonte-secundaria), sans-serif;
-    font-size: 4vw;
+.pagina{
     text-align: center;
-    color:black;
-    text-shadow: 2px 2px 2px yellow;
-    font-variant: small-caps;
+}
+
+#voltar{
+    font-family: var(--fonte-secundaria);
     font-weight: normal;
-    line-height: 1.5em;
+    font-size: 15px;    
+    color:cyan;
+    text-decoration: none;
 }
 
-div{
-    color: #F2D129;
-    width: 500px;
-    height: 500px;
-    display: inline;
-    margin-top: 50px;
-    margin-left: 10px;
-    padding-left: 10px;
-    justify-content: center;
-    align-items: center;
+#faleconosco{
+    font-size: 1em;
+    font-style: normal;
+    color: yellow;
 }
 
-#div01{
-    width: 280px;
-    height: 600px;
-    justify-content: center;
+.row {
+    margin: 5px;
 }
 
-#div02{ 
-    width: 300px;
-    height: 600px;  
+fieldset {
+    font-family: var(--fonte-terciaria);
+    font-weight: normal;
+    margin: 15px 0;
+    border-radius: 10px;
+    border-color: yellow;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
 }
 
-#div03{
-    width: 900px;
-    height: 600px;
-    color: white;   
+label{
+    font-weight: normal;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    color: yellow;   
 }
 
-
-
-
-
-.transitionsize a:hover.menu{
-    transform: scale(2);
+div .footer{
+    height: auto;
 }
 
-.transitionrotate a:hover.menu{
-    transform: rotatez(360deg);
+footer{
+    font-family: var(--fonte-terciaria);
+    text-align: center; 
+    background:black;
+    color:purple;
+	font-size: 12px;
+    padding: 0px;
+    margin-top: 0px;
 }
+
