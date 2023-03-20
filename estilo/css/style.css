@@ -71,12 +71,22 @@ header li{
 }
 
 body{
-    background-image: url('imagens/elly/fundo800.jpg');
+    background-image: url('imagens/fundo/fundo800.jpg');
+    text-align: center;
 }
 
 main{
+    background-color: rgba(255, 255, 255, 0.403);
     display: flex;
     align-items: center;
+    margin: auto;
+    padding: 5px;
+    min-width: 300px;
+    max-width: 1500px;
+}
+
+main img{
+    width: 100%;      
 }
 
 p{
@@ -131,13 +141,13 @@ div{
 }
 
 #div01{
-    width: 280px;
+    width: 230px;
     height: 600px;
     justify-content: center;
 }
 
 #div02{ 
-    width: 300px;
+    width: 360px;
     height: 600px;  
 }
 

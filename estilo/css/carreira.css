@@ -78,7 +78,11 @@ body{
     background-position: center center;  
     padding-top: 30px;
     margin-top: 30px;
-    background-image: url('imagens/elly/fundo800.jpg');
+    background-image: url('imagens/fundo/fundo800.jpg');
+}
+
+main{
+    margin: auto;
 }
 
 h1{
