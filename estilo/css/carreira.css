@@ -90,7 +90,6 @@ main{
 h1{
     font: normal normal 1em var(--fonte-secundaria), sans-serif;
     text-shadow: 2px 2px 2px yellow;
-    font-variant: small-caps;
     font-size: 7vw;
     text-align: center;
     color:black;  
@@ -100,7 +99,7 @@ p{
     font-family: var(--fonte-terciaria);
     color: white;
     text-align: justify;
-    padding: 10px;
+    padding: 10px 50px 0px 50px ;
     text-indent: 50px;
     font-size: 1.1em;
     line-height: 2em;

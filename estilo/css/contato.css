@@ -87,7 +87,6 @@ h1{
     font: normal normal 1em var(--fonte-secundaria), sans-serif;
     color:black; 
     text-shadow: 2px 2px 2px yellow;
-    font-variant: small-caps;
     font-size: 7vw;
     text-align: center;
      
