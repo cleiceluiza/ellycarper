@@ -6,14 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap'); /* font-family: 'Wallpoet', cursive;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;200;300;400;500;600;800;900&display=swap'); /* font-family: 'Big Shoulders Stencil Text', cursive; */
-
-@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap'); /* font-family: 'Sirin Stencil', cursive; */
-
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap'); /* h2 font-family: 'Teko', sans-serif;*/
-
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /* h2 font-family: 'Russo One', sans-serif;*/
-
 @font-face {
     font-family: 'Onomber';
     src: url('/fontes/Onomber_font_farra_de_elite/Onomber.otf') format('truetype');
@@ -43,22 +35,44 @@
     box-sizing: border-box;
 }
 
+body{    
+    min-width: 650px;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;    
+    line-height: 2em;
+    color: yellow;
+    background-image: url(imagens/fundo/fundo800.jpg);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container main{
+    flex: 1 1 0;
+    border: 0;
+    background-color:transparent;
+}
+
 header{
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     text-align: right;
-    padding: 9px 0px;
+    padding: 1px 0px;
     background-color:transparent;
-}
+} 
 
 header li{
     display: inline-block;    
 }
 
 .redessociais{
-    width: 60px;
+    width: 40px;
     padding: 5px;
 }
 
@@ -69,33 +83,14 @@ header li{
     background-color: transparent;   
 }
 
-body{ 
-    font-size: 20px;
-    color: yellow;
-    text-align: center;
-    background-position: center center;  
-    padding-top: 30px;
-    margin-top: 30px;
-    background-image: url('imagens/fundo/fundo800.jpg');
-}
-
-main{
-    margin: auto;
-}
-
 h1{
     font: normal normal 1em var(--fonte-secundaria), sans-serif;
+    color:black; 
     text-shadow: 2px 2px 2px yellow;
     font-variant: small-caps;
-    font-size: 4vw;
+    font-size: 7vw;
     text-align: center;
-    color:black;  
-}
-
-div{
-    width: 100px;
-    height: 710px;
-    display: inline-block;
+     
 }
 
 ul a:hover.menu{ /* ao passar o mouse em cima */
@@ -106,37 +101,35 @@ ul a:hover.menu{ /* ao passar o mouse em cima */
     border-radius: 10px;
 }
 
-.pagina{
-    text-align: center;
-}
-
 #voltar{
     font-family: var(--fonte-secundaria);
     font-weight: normal;
-    font-size: 15px;    
+    font-size: 14px;    
     color:cyan;
     text-decoration: none;
 }
 
+div#container{
+    overflow-x: auto;
+}
+
 #faleconosco{
-    font-size: 1em;
     font-style: normal;
     color: yellow;
 }
 
 .row {
-    margin: 5px;
+    margin: 1px;
 }
 
 fieldset {
     font-family: var(--fonte-terciaria);
     font-weight: normal;
-    margin: 15px 0;
     border-radius: 10px;
     border-color: yellow;
     text-align: center;
-    margin: 10px 10px 10px 10px;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
 }
 
 label{
@@ -147,17 +140,13 @@ label{
     color: yellow;   
 }
 
-div .footer{
-    height: auto;
-}
-
-footer{
-    font-family: var(--fonte-terciaria);
-    text-align: center; 
-    background:black;
-    color:purple;
-	font-size: 12px;
-    padding: 0px;
-    margin-top: 0px;
+.footer{
+    background-color: black;
+    color: #400557;
+    text-align: center;
+    line-height: normal;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 20px 20px 0px 0px;
 }
 

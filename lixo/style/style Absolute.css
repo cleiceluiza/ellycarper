@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap'); /* font-family: 'Saira Stencil One', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap'); /* h2 font-family: 'Mina', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap'); /* font-family: 'Wallpoet', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;200;300;400;500;600;800;900&display=swap'); /* font-family: 'Big Shoulders Stencil Text', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap'); /* font-family: 'Sirin Stencil', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap'); /* h2 font-family: 'Teko', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /* h2 font-family: 'Russo One', sans-serif;*/
+
+@font-face {
+    font-family: 'Onomber';
+    src: url('/fontes/Onomber_font_farra_de_elite/Onomber.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --lilas1: #7E258A;
+    --lilas2: #76268C;    
+    --lilas3: #410859;    
+    --lilas4: #400557;
+    --ama1: #F2E82B;
+    --ama2: #F2D129;
+    --ama3: #D9A714;    
+    --cinza: #95949B;
+    --branco: #F2F2F2;
+
+    --fonte-padrão: arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Saira Stencil One', cursive; /* internet */
+    --fonte-secundaria:'onomber',arial; /* pasta */
+    --fonte-terciaria: 'mina', arial; /* internet */
+}
+
+*{/* Configuração global */
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding: 1px 0px;
+    font-family: var(--fonte-secundaria), 'Courier New', Courier, monospace;
+    background-color:transparent;
+}
+
+header ul{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
+
+header li{
+    display: inline-block; /* Itens formatados em linha única */
+    padding: 1px;
+    margin: 1px; 
+}
+
+.redessociais{
+    width: 90px;
+    padding: 1px;
+}
+
+.redessociais a:hover{
+    text-decoration: none;
+    color:black;
+    text-shadow: none;
+    background-color: transparent;   
+}
+
+body{
+    background-image: url('imagens/fundo/fundo800.jpg');
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;   
+    padding: 2px;
+    min-width: 280px;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 18px;
+}
+
+img{
+    max-width: 45%;   
+}
+
+
+ul{
+    list-style: none;
+}
+
+#invisivel{/* esconder a palavra home */
+    display: none;
+}
+
+
+ul a{/* links */
+    text-decoration: none;    
+}
+
+ul a:hover.menu{ /* ao passar o mouse em cima */
+    text-decoration: none;
+    color: #7E258A;
+    text-shadow: 3px 3px 3px black;
+    background-color: yellow;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+ul a:hover.menu{
+    transform: scale(2);
+}
+
+.menu{
+    font: normal normal 3em var(--fonte-secundaria), sans-serif;
+    text-align: center;
+    color:black;
+    text-shadow: 3px 3px 3px yellow;
+    font-variant: small-caps;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.8em;
+    font-size: 60px;
+}
+
+ul a:hover.menu #invisivel{
+    color: transparent;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+div{
+    color: #F2D129;
+    width: 500px;
+    height: 500px;
+    display: inline;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-left: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#div01{
+    width: 500px;
+    height: 700px;
+    justify-content: center;
+    
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+}
+
+#div02{ 
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    right: 600px;
+    bottom: 10px; 
+}
+
+#div03{
+    width: 500px;
+    height: 700px;    
+    justify-content: center; 
+        
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}

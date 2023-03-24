@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap'); /* font-family: 'Saira Stencil One', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap'); /* h2 font-family: 'Mina', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap'); /* font-family: 'Wallpoet', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;200;300;400;500;600;800;900&display=swap'); /* font-family: 'Big Shoulders Stencil Text', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap'); /* font-family: 'Sirin Stencil', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap'); /* h2 font-family: 'Teko', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /* h2 font-family: 'Russo One', sans-serif;*/
+
+@font-face {
+    font-family: 'Onomber';
+    src: url('/fontes/Onomber_font_farra_de_elite/Onomber.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --lilas1: #7E258A;
+    --lilas2: #76268C;    
+    --lilas3: #410859;    
+    --lilas4: #400557;
+    --ama1: #F2E82B;
+    --ama2: #F2D129;
+    --ama3: #D9A714;    
+    --cinza: #95949B;
+    --branco: #F2F2F2;
+
+    --fonte-padrão: arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Saira Stencil One', cursive; /* internet */
+    --fonte-secundaria:'onomber',arial; /* pasta */
+    --fonte-terciaria: 'mina', arial; /* internet */
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding: 1px 0px;
+    background-color:transparent;
+}
+
+header li{
+    display: inline-block;    
+}
+
+.redessociais{
+    width: 40px;
+    padding: 5px;
+}
+
+.redessociais a:hover{
+    text-decoration: none;
+    color:black;
+    text-shadow: none;
+    background-color: transparent;   
+}
+
+body{ 
+    font-size: 18px;
+    color: yellow;
+    text-align: center;
+    background-position: center center; 
+    padding-top: 20px;
+    margin-top: 20px;
+    background-image: url('imagens/fundo/fundo800.jpg');
+    min-width: 650px;
+}
+
+main{
+    margin: auto;
+}
+
+h1{
+    font: normal normal 1em var(--fonte-secundaria), sans-serif;
+    text-shadow: 2px 2px 2px yellow;
+    font-variant: small-caps;
+    font-size: 7vw;
+    text-align: center;
+    color:black;  
+}
+
+ul a:hover.menu{ /* ao passar o mouse em cima */
+    text-decoration: none;
+    color: #7E258A;
+    text-shadow: 3px 3px 3px black;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#voltar{
+    font-family: var(--fonte-secundaria);
+    font-weight: normal;
+    font-size: 14px;    
+    color:cyan;
+    text-decoration: none;
+}
+
+#faleconosco{
+    font-style: normal;
+    color: yellow;
+}
+
+.row {
+    margin: 1px;
+}
+
+fieldset {
+    font-family: var(--fonte-terciaria);
+    font-weight: normal;
+    border-radius: 10px;
+    border-color: yellow;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+label{
+    font-weight: normal;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    color: yellow;   
+}
+
+.footer{
+    font-family: var(--fonte-terciaria);
+    text-align: center;
+    background-color: black;
+    color:purple;
+    box-sizing: border-box;
+	font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding: 10px 300px 10px;
+}

@@ -49,17 +49,18 @@ header{
     top: 0;
     width: 100%;
     text-align: right;
-    padding: 9px 0px;
+    padding: 1px 0px;
     font-family: var(--fonte-secundaria), 'Courier New', Courier, monospace;
     background-color:transparent;
 }
 
 header li{
-    display: inline-block;    
+    display: inline-block;
+    text-align: center;   
 }
 
 .redessociais{
-    width: 60px;
+    width: 40px;
     padding: 5px;
 }
 
@@ -70,14 +71,15 @@ header li{
     background-color: transparent;   
 }
 
-body{    
+body{ 
     font-family: var(--fonte-secundaria);
     font-size: 20px;
     color: yellow;
     text-align: center;
     background-position: center center;  
-    padding-top: 30px;
-    margin-top: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding: 20px;
     background-image: url('imagens/fundo/fundo800.jpg');
 }
 
@@ -89,11 +91,10 @@ h1{
     font: normal normal 1em var(--fonte-secundaria), sans-serif;
     text-shadow: 2px 2px 2px yellow;
     font-variant: small-caps;
-    font-size: 4vw;
+    font-size: 7vw;
     text-align: center;
     color:black;  
 }
-
 
 .videos{
     font-weight: bold;
@@ -106,19 +107,18 @@ h1{
 
 #video{
     border-radius: 10px;
-    box-shadow: 10px 10px 10px yellow;
+    box-shadow: 7px 7px 7px yellow;
     margin-top: 10px;
-    margin-bottom: 20px;
-    width:550px;
+    margin-bottom: 10px;
+    width:350px;
     height: 250px;
+    max-width: 100%;
+    max-width: 100%;  
 }
 
 #voltar{
     font-weight: normal;
-    font-size: 15px;    
+    font-size: 14px;    
     color:cyan;
     text-decoration: none;
 }
-
-
-
