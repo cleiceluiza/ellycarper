@@ -110,7 +110,6 @@ p{
     font-size: 14px;
 }
 
-
 #voltar{
     font-weight: normal;
     font-size: 14px;    
@@ -119,9 +118,16 @@ p{
 }
 
 .album{
-    width: 190px;
-    box-shadow: 10px 10px 10px yellow;
+    width: 190px;    
     border-radius: 20px;
+}
+
+#disco01{
+    box-shadow: -10px 10px 10px 0px yellow;
+}
+
+#disco02{
+    box-shadow: 10px 10px 10px 0px yellow;
 }
 
 div{
@@ -144,7 +150,7 @@ div ul li{
 }
 
 #div02{ 
-    width: 550px;
+    width: 548px;
     height: 500px;  
     font-size: 20px;     
     text-decoration: none;
@@ -153,7 +159,7 @@ div ul li{
 }
 
 #div03{ 
-    width: 550px;
+    width: 548px;
     height: 500px;      
     font-size: 20px;  
     text-decoration: none;
@@ -163,7 +169,8 @@ div ul li{
 
 #div04{ 
     width: 190px;
-    height: 230px; 
+    height: 230px;
+   margin-right: px;
 }
 
 .audio{
