@@ -67,7 +67,7 @@ body{
     padding-top: 20px;
     margin-top: 20px;
     padding: 20px;
-    background-image: url('imagens/fundo/fundo800.jpg');
+    background-image: url('imagens/fundo/2_1550.jpeg');
 }
 
 main{
@@ -83,10 +83,7 @@ h1{
 }
 
 #voltar{
-    font-weight: normal;
-    font-size: 14px;    
-    color:cyan;
-    text-decoration: none;
+    width: 60px;
 }
 
 img{
