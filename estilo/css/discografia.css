@@ -80,7 +80,7 @@ body{
     background-position: center center;  
     padding-top: 25px;
     margin-top: 25px;
-    background-image: url('imagens/fundo/2_1550.jpeg');
+    background-image: url('imagens/fundo/0_1550_97.jpeg');
 }
 
 main{
@@ -90,6 +90,7 @@ main{
     min-width: 280px;
     max-width: 1500px;
     margin: auto;
+    
 }
 
 main img{
@@ -186,4 +187,5 @@ div ul li{
     font-size: 15px;
     text-decoration: none;
     color: yellow;
+    font-weight: normal;
 }

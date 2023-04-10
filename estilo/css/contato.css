@@ -42,7 +42,7 @@ body{
     text-align: center;    
     line-height: 2em;
     color: yellow;
-    background-image: url(imagens/fundo/2_1550.jpeg);
+    background-image: url(imagens/fundo/0_1550_97.jpeg);
 }
 
 .container{
@@ -115,6 +115,7 @@ div#container{
 #faleconosco{
     font-style: normal;
     color: yellow;
+    font-weight: bold;
 }
 
 .row {
@@ -123,7 +124,7 @@ div#container{
 
 fieldset {
     font-family: var(--fonte-terciaria);
-    font-weight: normal;
+    font-weight: bold;
     border-radius: 10px;
     border-color: yellow;
     text-align: center;
